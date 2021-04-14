@@ -18,7 +18,7 @@ body{
 .container{
     padding: 30px;
 	position: relative;
-	background: linear-gradient(45deg, #443B96, #F60B68, #F4483A);
+	background: linear-gradient(0.25turn, #0a78c7, #0bb089, #1eb040);
 	background-size: 500% 500%;
 	animation: change-gradient 10s ease-in-out infinite;
 }
@@ -48,14 +48,17 @@ body{
 .description p{
 	color: #ffffff;
     font-style: italic;
-    font-size: 14px;
+    font-size: 18px;
     margin: -5px 0 0;
 }
 
 /* Text Area */
 .ml-container{
-    margin: 30px 0;
+    //margin: 30px 0;
+    padding: 30px;
 	flex: 1 0 auto;
+    background: linear-gradient(0.25turn, #fffbcf, #d4ffcc, #fce7e3);
+    
 }
 
 .form-input {
@@ -67,7 +70,7 @@ body{
 
 /* Predict Button */
 .my-cta-button{
-	background: #f9f9f9;
+	background: linear-gradient(0.25turn, #fffec7, #ebf8e1, #dcfcfa);
    	border: 2px solid #000000;
     border-radius: 1000px;
     box-shadow: 3px 3px #8c8c8c;
@@ -75,13 +78,13 @@ body{
     padding: 10px 36px;
     color: #000000;
     display: inline-block;
-   	font: italic bold 20px/1 "Calibri", sans-serif;
+   	font-family: "Lucida Console", "Courier New", monospace ;
     text-align: center;
 }
 
 .my-cta-button:hover{
-    color: #4d089a;
-    border: 2px solid #4d089a;
+    color: #000000;
+    border: 3px solid #4d089a;
 }
 
 .my-cta-button:active{
@@ -103,7 +106,7 @@ body{
 	flex-shrink: 0;
 	position: relative;
 	padding: 20px;
-	background: linear-gradient(45deg, #443B96, #F60B68, #F4483A);
+	background: linear-gradient(0.25turn, #0a78c7, #0bb089, #1eb040);
 	background-size: 500% 500%;
 	animation: change-gradient 10s ease-in-out infinite;
 }
@@ -112,6 +115,7 @@ body{
 	color: #ffffff;
 	margin: 0;
 	font-size: 12px;
+    font-family: Gabriola;
 }
 
 /* Result */
@@ -136,3 +140,4 @@ body{
 	width: 35%;
     	margin: 10px 0;
 }
+

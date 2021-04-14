@@ -14,20 +14,20 @@
 
         <!-- Website Title -->
 		<div class="container">
-            <h2 class='container-heading'><span class="heading_font"><p style="font-family:fantasys">DO YOU HAVE DIABETES?</p></span></h2>
+            <h2 class='container-heading'><span class="heading_font"><p style="font-family:Lucida Sans Typewriter">DIABETES DocTor</p></span></h2>
             <div class='description'>
-    			<p>“One thing that you really have to do is move forward. You’ve gotta really tackle this. You can’t be a passive patient.”</p>
+    			<p style="font-family:Goudy Old Style">“One thing that you really have to do is move forward. You’ve gotta really tackle this. You can’t be a passive patient”</p>
     		</div>
     	</div>
 
 		<!-- Result -->
 		<div class="results">
 			{% if prediction==1 %}
-				<h1>Prediction: <span class='danger'>Looks like You have DIABETES!! Please meet a Doctor!!!.</span></h1>
-				<img class="gif" src="{{ url_for('static', filename='diabetes.webp') }}" alt="Diabetes Image">
+				<h1>Prediction: <span class='danger'>Looks like You have DIABETES!! Please meet a Doctor!!!</span></h1>
+				<img class="gif" src="{{ url_for('static', filename='sad.webp') }}" alt="Diabetes Image">
 			{% elif prediction==0 %}
-				<h1>Prediction: <span class='safe'>Nice You  are healthy you DON'T have diabetes.</span></h1>
-				<img class="gif1" src="{{ url_for('static', filename='no-diabetes.webp') }}" alt="Not Diabetes Image">
+				<h1>Prediction: <span class='safe'>Nice! You are healthy you DON'T have diabetes.</span></h1>
+				<img class="gif1" src="{{ url_for('static', filename='scooby.webp') }}" alt="Not Diabetes Image">
 			{% endif %}
 		</div>
 
