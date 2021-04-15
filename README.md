@@ -1,5 +1,5 @@
 # Diabetes Prediction for people - Deployment
-https://img.shields.io/static/v1?label=<Python>&message=<3.8>&color=<success>
+_https://img.shields.io/static/v1?label=<Python>&message=<3.8>&color=<success>_
 
 • This repository consists of files required to deploy a ___WEB APPLICATION___ created with ___Flask___ on ___Heroku___ platform.
 
