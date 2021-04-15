@@ -1,5 +1,6 @@
 # Diabetes Prediction for people - Deployment
 
+![GitHub top language](https://img.shields.io/github/languages/top/OvinduWijethunge/diabetes-Deployement?style=plastic) 
 
 • This repository consists of files required to deploy a ___WEB APPLICATION___ created with ___Flask___ on ___Heroku___ platform.
 
