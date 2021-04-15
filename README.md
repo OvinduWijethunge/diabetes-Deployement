@@ -9,4 +9,6 @@ Heroku: _https://diabetes-prediction-v-1.herokuapp.com/_
 • If you want to check the algorithems,models, accuracy just Click the link mentioned below:<br />
 Link: _https://github.com/OvinduWijethunge/diabetes-Model_
 
+• Front end was influenced by  _https://predicting-diabetes.herokuapp.com/_
+
 
